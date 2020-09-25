@@ -15,6 +15,7 @@
 		B16DC7252512FF6F00A57433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16DC7232512FF6F00A57433 /* LaunchScreen.storyboard */; };
 		B16DC7302512FF7000A57433 /* AvatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DC72F2512FF7000A57433 /* AvatarTests.swift */; };
 		B16DC73B2512FF7000A57433 /* AvatarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DC73A2512FF7000A57433 /* AvatarUITests.swift */; };
+		B16DC749251B00C200A57433 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DC748251B00C200A57433 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B16DC7362512FF7000A57433 /* AvatarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvatarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16DC73A2512FF7000A57433 /* AvatarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarUITests.swift; sourceTree = "<group>"; };
 		B16DC73C2512FF7000A57433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16DC748251B00C200A57433 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B16DC71A2512FF6900A57433 /* SceneDelegate.swift */,
 				B16DC71C2512FF6900A57433 /* ViewController.swift */,
 				B16DC71E2512FF6900A57433 /* Main.storyboard */,
+				B16DC748251B00C200A57433 /* HistoryViewController.swift */,
 				B16DC7212512FF6F00A57433 /* Assets.xcassets */,
 				B16DC7232512FF6F00A57433 /* LaunchScreen.storyboard */,
 				B16DC7262512FF6F00A57433 /* Info.plist */,
@@ -191,7 +194,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
 					B16DC7142512FF6900A57433 = {
@@ -262,6 +265,7 @@
 				B16DC71D2512FF6900A57433 /* ViewController.swift in Sources */,
 				B16DC7192512FF6900A57433 /* AppDelegate.swift in Sources */,
 				B16DC71B2512FF6900A57433 /* SceneDelegate.swift in Sources */,
+				B16DC749251B00C200A57433 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +346,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -402,6 +407,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
